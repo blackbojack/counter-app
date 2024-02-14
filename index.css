@@ -1,0 +1,61 @@
+body {
+    padding: 50px 10px;
+    margin: 0px;
+    background-image: url("umbrella.jpeg");
+    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(50%);
+    background-size: cover;
+    font-family: Oxygen, 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Cantarell, 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#calculator {
+    background: white;
+    width: 35%;
+    margin: 10px auto;
+    border: 4px solid #1f1f1f;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 0px;
+    margin: 10px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #4682B4;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-el {
+
+}
+
+#wrapper-section {
+    max-width: 1600px;
+}
